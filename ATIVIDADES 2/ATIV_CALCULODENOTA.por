@@ -16,7 +16,14 @@ programa
 		escreva("QUARTA NOTA: ")
 		leia(N4)
 		N5 = (N1 + N2 + N3 + N4) / 4
-		escreva("SUA MEDIA É NOTA " + N5)
+		se (media < 5)
+		{
+			escreva("Aluno reprovado devido a sua media ser" + N5)
+		}senao
+		{
+			escreva("Aluno aprovado com sua media" + N5)
+		}
+		
 		
 	}
 }
